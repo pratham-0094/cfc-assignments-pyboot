@@ -5,11 +5,10 @@
 #       4   5	6   7	6   5	4
 #   5   6   7	8   9	8   7	6   5
 
-num = int(input("Enter number : "))
 i=1
-while(i<=num):
+while(i<=5):
     sp = 1
-    while(sp<=num-i):
+    while(sp<=5-i):
         print("\t", end="")
         sp+=1
     j=1
